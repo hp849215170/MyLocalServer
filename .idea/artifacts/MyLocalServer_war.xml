@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MyLocalServer:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyLocalServer</output-path>
+    <root id="archive" name="MyLocalServer_war.war">
+      <element id="artifact" artifact-name="MyLocalServer:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="sqlite-jdbc-3.32.3.2" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/fastjson-1.2.75.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/sqlite-jdbc-3.32.3.2.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
